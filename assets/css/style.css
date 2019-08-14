@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif; }
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
+
+header {
+  background-color: #1e2020; }
+  header h1 {
+    color: white;
+    font-weight: 300;
+    padding: 10px;
+    width: 50%; }
+  header a {
+    float: right;
+    font-size: 25px;
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: -41px;
+    right: 15px; }
+  header a:hover {
+    color: #ccc;
+    transition: 0.5s; }
+
+section.buscar {
+  margin-top: 20px; }
+
+.formulario {
+  width: 100%;
+  display: inline-block; }
+  .formulario .campos {
+    display: inline-block;
+    width: 30%; }
+    .formulario .campos .campos-op {
+      margin-bottom: 20px; }
+  .formulario label {
+    display: inline-block;
+    font-size: 20px;
+    margin-right: 10px; }
+  .formulario select {
+    width: 235px;
+    height: 35px;
+    font-size: 17px;
+    padding-left: 7px;
+    border: 1px solid #ccc;
+    border-radius: 2px; }
+  .formulario .acoes {
+    width: 70%;
+    float: right;
+    position: relative;
+    top: 57px; }
+    .formulario .acoes .acoes-btn {
+      float: right; }
+    .formulario .acoes input {
+      color: #363535;
+      border: none;
+      margin-right: 10px;
+      border: 2px solid #1b1d1d;
+      background: none;
+      cursor: pointer;
+      outline: none; }
+    .formulario .acoes input:hover {
+      background: #1b1d1d;
+      color: #fff;
+      transition: 0.5s;
+      outline: none; }
+    .formulario .acoes input[type='reset'] {
+      border: 2px solid #f7aa06; }
+    .formulario .acoes input[type='reset']:hover {
+      background: #f7aa06;
+      color: #fff;
+      transition: 0.5s; }
+    .formulario .acoes a {
+      text-decoration: none;
+      text-align: center;
+      color: black;
+      border: 2px solid #05f02c;
+      font-size: 17px;
+      padding: 6px 90px;
+      border-radius: 2px; }
+    .formulario .acoes a:hover {
+      background: #05f02c;
+      color: #fff;
+      transition: 0.5s; }
+
+section.tabela {
+  margin-top: 30px; }
+  section.tabela .linha {
+    width: 100%;
+    height: 2px;
+    margin-bottom: 30PX;
+    background-color: black; }
+  section.tabela table {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-collapse: collapse; }
+    section.tabela table th {
+      border-bottom: 1px solid #ccc;
+      padding: 5px; }
+    section.tabela table td {
+      border-bottom: 1px solid #ccc;
+      text-align: center;
+      padding: 5px 0;
+      height: 25px; }
+    section.tabela table .info:hover {
+      background: #f0eded;
+      transition: 0.5s; }
+    section.tabela table a {
+      margin: 5px;
+      text-decoration: none;
+      text-align: center;
+      color: #363535;
+      border: 2px solid #056bf0;
+      font-size: 17px;
+      padding: 2px 15px;
+      border-radius: 2px; }
+    section.tabela table a:hover {
+      background: #056bf0;
+      color: #fff;
+      transition: 0.5s; }
+    section.tabela table a:nth-last-of-type(1) {
+      border: 2px solid #f12f2f; }
+    section.tabela table a:nth-last-of-type(1):hover {
+      background: #f12f2f;
+      transition: 0.5s; }
+
+input {
+  width: 230px;
+  height: 35px;
+  font-size: 17px;
+  padding-left: 7px;
+  border: 1px solid #ccc;
+  border-radius: 2px; }
+
+.login {
+  width: 320px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+  .login img {
+    height: 75px;
+    width: 75px;
+    padding: 18px; }
+  .login input {
+    margin-bottom: 20px; }
+  .login input[type="submit"] {
+    width: 230px;
+    border: 2px solid #5bcaf7;
+    color: #030303;
+    background: none;
+    cursor: pointer; }
+  .login input[type="submit"]:hover {
+    background-color: #5bcaf7;
+    color: #fff;
+    transition: 0.5s; }
+
+section.cadastro {
+  margin-top: 10px; }
+  section.cadastro label {
+    display: block;
+    margin-bottom: 10px; }
+  section.cadastro input {
+    margin-bottom: 5px; }
+  section.cadastro .acoes {
+    position: relative;
+    top: 358px; }
+
+.alert {
+  text-align: center;
+  margin-top: 10px;
+  max-width: 235px;
+  border: 2px solid #0a1afa;
+  color: #080808;
+  padding: 10px; }
+
+  span{
+    display: none;
+    color: red;
+    font-size: 11px;
+    
+
+  }
+
+/*# sourceMappingURL=style.css.map */
