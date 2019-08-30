@@ -1,1 +1,3 @@
 -Projeto de estudos
+-Login: admin
+-Senha: 123456
